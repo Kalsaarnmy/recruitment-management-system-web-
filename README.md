@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b787561-afd6-4b11-8996-6fab69f785f0" /># recruitment-management-system-web-
+# recruitment-management-system-web-
 A web-based recruitment management system for managing applicants, featuring CRUD operations, data filtering, status updates, and Excel export.
 
 # Recruitment Management System

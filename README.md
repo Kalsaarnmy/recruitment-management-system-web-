@@ -34,6 +34,9 @@ This project was developed as a web-based system to support the management of an
 
 ![Landing Page](screenshots/landing-page.png)
 
+### Login
+![Login](screenshots/login.png)
+
 ### Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
@@ -41,6 +44,11 @@ This project was developed as a web-based system to support the management of an
 ### Applicant Management
 
 ![Applicant Management](screenshots/applicant-management.png)
+
+### Data Export
+![Data Export](screenshots/data-export.png)
+
+
 
 ## Project Structure
 

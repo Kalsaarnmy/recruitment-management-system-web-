@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0B1F4D;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #FFD166 !important;
+}
+
+.btn-admin {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px 14px !important;
+}
+
+/* Hero */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #0B1F4D, #1E5BFF);
+    color: white;
+    padding-top: 90px;
+}
+
+.badge-custom {
+    background-color: #FFD166;
+    color: #0B1F4D;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-gold {
+    background-color: #FFD166;
+    color: #0B1F4D;
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn-gold:hover {
+    background-color: #ffc233;
+    color: #0B1F4D;
+}
+
+/* Poster */
+.poster-card img {
+    max-height: 550px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Section title */
+.section-title {
+    color: #0B1F4D;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Info card */
+.info-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Division card */
+.division-card {
+    background: white;
+    padding: 25px;
+    border-left: 5px solid #1E5BFF;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* CTA */
+.cta-section {
+    background-color: #0B1F4D;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #06132b;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 120px 20px;
+    }
+
+    .poster-card img {
+        max-height: 400px;
+    }
+}
+
+/* daftar html */
+.form-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f8ff, #dce8ff);
+}
+
+.form-card {
+    max-width: 700px;
+    background: white;
+    padding: 35px;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* dashboard statistik */
+.stat-card {
+    background: white;
+    padding: 10x;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    border-top: 4px solid #1E5BFF;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-card h5 {
+    color: #0B1F4D;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.stat-card h2 {
+    color: #1E5BFF;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* sukses html */
+.success-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0B1F4D, #1E5BFF);
+    color: white;
+}
+
+.success-card {
+    background: white;
+    color: #0B1F4D;
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 650px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+/* login html */
+.login-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0B1F4D, #1E5BFF);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    padding: 35px;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}

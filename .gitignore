@@ -1,0 +1,5 @@
+labamen.db
+uploads/
+.env
+__pycache__/
+*.pyc
